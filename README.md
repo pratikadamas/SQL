@@ -4,6 +4,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=900&size=32&pause=1000&color=3B82F6&center=true&vCenter=true&width=800&lines=SQL+Practice+Notes;PostgreSQL+Query+Exercises" alt="Typing SVG" />
 </div>
 
+
 <p align="left">
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
