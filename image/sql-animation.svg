@@ -1,0 +1,63 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SQL Practice Notes animated banner</title>
+  <desc id="desc">A dark banner with animated nodes and flowing lines behind the title SQL Practice Notes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="45%" stop-color="#101a2d"/>
+      <stop offset="100%" stop-color="#1b2d4a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4ea3ff"/>
+      <stop offset="50%" stop-color="#7cdbff"/>
+      <stop offset="100%" stop-color="#4ea3ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.2  0 1 0 0 0.7  0 0 1 0 1  0 0 0 1 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="280" rx="28" fill="url(#bg)"/>
+  <path d="M80 88C200 40 290 58 388 92C494 130 588 146 704 96C814 50 928 34 1120 82" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+  <path d="M80 182C202 142 286 154 390 190C488 224 604 236 714 186C824 136 950 118 1120 164" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+
+  <g filter="url(#glow)">
+    <circle cx="180" cy="88" r="10" fill="#7cdbff">
+      <animate attributeName="r" values="8;13;8" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="388" cy="92" r="10" fill="#4ea3ff">
+      <animate attributeName="r" values="8;13;8" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="704" cy="96" r="10" fill="#7cdbff">
+      <animate attributeName="r" values="8;13;8" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="82" r="10" fill="#4ea3ff">
+      <animate attributeName="r" values="8;13;8" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="70" y="62" width="1060" height="156" rx="22" fill="white" opacity="0.03"/>
+  <text x="90" y="168" fill="#f4f8ff" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="0.5">
+    SQL Practice Notes
+  </text>
+  <text x="92" y="214" fill="#b9c9e5" font-family="Segoe UI, Arial, sans-serif" font-size="22">
+    Query practice • Markdown notes • PostgreSQL schema
+  </text>
+
+  <g opacity="0.18">
+    <circle cx="1020" cy="200" r="44" fill="#7cdbff">
+      <animate attributeName="cy" values="194;206;194" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1090" cy="132" r="24" fill="#4ea3ff">
+      <animate attributeName="cy" values="126;138;126" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1128" cy="196" r="18" fill="#9fdfff">
+      <animate attributeName="cy" values="190;202;190" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
